@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.menu_item{
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0 5px;
+  padding: .5em;
+}
+.menu_item:hover{
+  text-decoration: underline;
+}
+.menu_item.active{
+  color: #1976d2;
+
+}
