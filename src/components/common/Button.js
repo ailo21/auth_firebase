@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 
 const BasicButtons = ({title,handleAction}) => {
     return (
-        <Button variant="contained" onClick={handleAction}>{title}</Button>
+        <Button type={"submit"} variant="contained" onClick={handleAction}>{title}</Button>
     );
 };
 

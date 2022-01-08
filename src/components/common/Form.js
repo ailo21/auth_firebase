@@ -10,8 +10,10 @@ const BasicTextFields = ({title, setEmail, setPassword, handleAction}) => {
             <div className="heading-container">
                 <h3>{title} Form</h3>
             </div>
+
             <Box
                 component="form"
+                onSubmit={handleAction}
                 sx={{
                     '& > :not(style)': {m: 1, width: '25ch'},
                 }}
